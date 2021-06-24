@@ -346,7 +346,7 @@ export default class ControlBar extends React.Component {
               <FontSizePicker
                 key={uuidv4()}
                 fontSizes={fontSizes}
-                defaultCaption={controlItem.title}
+                defaultCaption={controlItem.text}
                 {...commonProps}
               />
             );
@@ -356,7 +356,7 @@ export default class ControlBar extends React.Component {
               <LineHeightPicker
                 key={uuidv4()}
                 lineHeights={lineHeights}
-                defaultCaption={controlItem.title}
+                defaultCaption={controlItem.text}
                 {...commonProps}
               />
             );
@@ -366,7 +366,7 @@ export default class ControlBar extends React.Component {
               <LetterSpacingPicker
                 key={uuidv4()}
                 letterSpacings={letterSpacings}
-                defaultCaption={controlItem.title}
+                defaultCaption={controlItem.text}
                 {...commonProps}
               />
             );
@@ -375,7 +375,7 @@ export default class ControlBar extends React.Component {
             return (
               <TextIndent
                 key={uuidv4()}
-                defaultCaption={controlItem.title}
+                defaultCaption={controlItem.text}
                 {...commonProps}
               />
             );
@@ -385,7 +385,7 @@ export default class ControlBar extends React.Component {
               <FontFamilyPicker
                 key={uuidv4()}
                 fontFamilies={fontFamilies}
-                defaultCaption={controlItem.title}
+                defaultCaption={controlItem.text}
                 {...commonProps}
               />
             );
